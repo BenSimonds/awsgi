@@ -150,7 +150,7 @@ def environ(event, context):
             environ['SERVER_PORT'] = v
 
         environ['HTTP_' + k] = v
-
+    print(environ)
     return environ
 
 
